@@ -262,3 +262,24 @@ function search(){
 $('#searchQuery').on('keyup', search);
 
 showExercises(EXERCISES);
+
+const openVideoBtn = document.querySelector('.open-video-btn');
+const videoFrame = document.querySelector('.video-frame');
+
+const videoContainer = document.querySelector('.video-container');
+const closeBtn = document.querySelector('.close-btn');
+
+openVideoBtn.addEventListener('click', function() {
+  const videoId = videoFrame.src.split('/').pop();
+
+  videoFrame.src = `https://www.youtube.com/embed/IODxDxX7oi4`;
+
+  videoContainer.style.display = 'block';
+});
+
+closeBtn.addEventListener('click', function() {
+
+  videoContainer.style.display = 'none';
+
+  videoFrame.src = '';
+});
