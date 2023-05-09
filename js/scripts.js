@@ -278,8 +278,13 @@ openVideoBtn.addEventListener('click', function() {
 });
 
 closeBtn.addEventListener('click', function() {
-
   videoContainer.style.display = 'none';
-
   videoFrame.src = '';
+});
+
+videoContainer.addEventListener('click', function(event) {
+  if (event.target === videoContainer) {
+    videoContainer.style.display = 'none';
+    videoFrame.src = '';
+  }
 });
