@@ -1251,11 +1251,8 @@ textarea.form-control-lg {
 
 .video-popup {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
+
 .open-video-btn {
   background-color: #4CAF50;
   border: none;
@@ -1265,8 +1262,11 @@ textarea.form-control-lg {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 0 auto;
+  margin-top: 50px;
   cursor: pointer;
 }
+
 .video-container {
   display: none;
   position: fixed;
@@ -1278,6 +1278,7 @@ textarea.form-control-lg {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .close-btn {
   color: #fff;
   float: right;
@@ -1286,21 +1287,23 @@ textarea.form-control-lg {
   margin-right: 10px;
   cursor: pointer;
 }
+
 .close-btn:hover,
 .close-btn:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
+
 .video-frame {
-  width: 80vw;
-  height: 80vh;
-  margin: auto;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
   display: block;
 }
 
 .open-video-btn {
-  background-color: green;
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 12px 24px;
@@ -1308,5 +1311,7 @@ textarea.form-control-lg {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 0 auto;
+  margin-top: 50px;
   cursor: pointer;
 }
