@@ -1269,10 +1269,10 @@ textarea.form-control-lg {
 
 .video-container {
   display: none;
-  position: fixed;
+  position: center;
   z-index: 1;
   left: 0;
-  top: 20;
+  top: 0;
   width: 60%;
   height: 60%;
   overflow: auto;
@@ -1298,7 +1298,7 @@ textarea.form-control-lg {
 .video-frame {
   width: 80%;
   height: 80%;
-  margin: 0 auto;
+  margin:  auto;
   display: block;
 }
 
@@ -1315,4 +1315,3 @@ textarea.form-control-lg {
   margin-top: 50px;
   cursor: pointer;
 }
-
