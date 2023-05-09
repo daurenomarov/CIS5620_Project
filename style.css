@@ -1249,21 +1249,6 @@ textarea.form-control-lg {
   }
 }
 
-.video-popup {
-  position: relative;
-}
-.open-video-btn {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-bottom: 12px;
-  cursor: pointer;
-}
 .video-container {
   display: none;
   position: fixed;
@@ -1274,34 +1259,7 @@ textarea.form-control-lg {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.8);
-}
-.close-btn {
-  color: #fff;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  margin-right: 10px;
-  cursor: pointer;
-}
-.close-btn:hover,
-.close-btn:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-.video-frame {
-  width: 80%;
-  height: 70%;
   margin: auto;
-  display: block;
+  overflow-y: scroll;
 }
 
-a {
-    color: blue
-}
-
-table, th, td {
-    border: 1px solid grey;
-    margin: 20px
-    border-collapse: collapse;
-    }
