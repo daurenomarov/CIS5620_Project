@@ -1272,9 +1272,9 @@ textarea.form-control-lg {
   position: fixed;
   z-index: 1;
   left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  top: 20;
+  width: 60%;
+  height: 60%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -1315,3 +1315,4 @@ textarea.form-control-lg {
   margin-top: 50px;
   cursor: pointer;
 }
+
