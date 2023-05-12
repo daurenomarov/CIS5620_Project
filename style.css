@@ -1273,14 +1273,14 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: transparent;
 }
 .close-btn {
-  color: #fff;
+  color: black;
   float: right;
-  font-size: 28px;
+  font-size: 50px;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 100px;
   cursor: pointer;
 }
 .close-btn:hover,
